@@ -8,7 +8,6 @@ int main() {
 
     n = num;
 
-    // Calculate sum of digits
     while (n > 0) {
         digit = n % 10;
         sum += digit;
@@ -18,7 +17,6 @@ int main() {
     printf("Sum of digits = %d\n", sum);
 
     if (sum % 2 == 0) {
-        // If sum is even → check prime
         if (num <= 1)
             isPrime = 0;
         else {
@@ -35,7 +33,6 @@ int main() {
             printf("%d is not a Prime number.\n", num);
     } 
     else {
-        // If sum is odd → check palindrome
         n = num;
         while (n > 0) {
             digit = n % 10;
