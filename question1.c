@@ -1,1 +1,0 @@
-#include<stdio.h>\nint main(){\n\tint i,fact=1,num;\n\tprintf("Enter a number:");\n\tscanf("%d",&num);\n\tfor(int i=1;i<=num;i++){\n\t\tfact=fact*i;}\n\tprintf("the factorial is %d",fact);\n}
